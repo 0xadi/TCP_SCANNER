@@ -66,23 +66,6 @@ func request_send(t int, l int) {
 
 	wg.Done()
 }
-
-//func loop(i int) {
-//go request_send(i)
-//m := <-d
-// print("open port:", i, "\n")
-//}
 func main() {
-	// hello := [8]int{1, 2, 3, 4, 5, 6, 7, 8}
-	// var hello int = 80
-	// //p := hello
-	// //hello2 := "working"
-	// l := make(chan int)
-	// go request_send(hello, l)
-	// m := <-l
-	// print("open port:", m, "\n")
-	// wg.Add(1)
-	// go request_send(80)
-	// wg.Wait()
 	user_input()
 }
